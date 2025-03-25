@@ -32,7 +32,7 @@ def validate_password(pw):
     return True, "Password is valid."
 
 
-@app.route("/checkPassword", methods=["POST"])
+@app.route("/v1/checkPassword", methods=["POST"])
 def check_password():
     data = flask.request.get_json() or {}
     pw = data.get("password", "")

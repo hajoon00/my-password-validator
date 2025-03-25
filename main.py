@@ -42,5 +42,5 @@ def check_password():
     # FIXME: to be implemented
     return flask.jsonify({"valid": is_valid, "reason": reason}), (200 if is_valid else 400)
 
-j 
+
 

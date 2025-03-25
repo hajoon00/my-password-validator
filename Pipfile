@@ -5,7 +5,7 @@ verify_ssl = true
 
 [packages]
 flask = "==3.1.0"
-gunicorn = "==23.0.0"
+gunicorn = "*"
 
 [dev-packages]
 pytest = "*"
